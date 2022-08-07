@@ -1,0 +1,1 @@
+select sum(prova + trabalho + simulado + comportamento) AS MEDIA, disciplinas_CODIGO as DISCIPLINA from media where disciplinas_codigo = 1 and usuario_id = 2
